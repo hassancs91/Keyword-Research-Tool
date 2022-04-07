@@ -1,4 +1,4 @@
-# Keyword-Research-Tool
+# Keyword Research Tool in .NET C#
 Build a Keyword research tool with google autocomplete suggestions
 
 I reversed engineer two big websites, answerthepublic, and keywordtool.io. and I tried to develop a free alternative!
@@ -22,7 +22,9 @@ We have to approaches:
 I chose the second approach, simply because with web automation, the operation will be slower, and you may get Recaptcha to solve, and things will be complicated.
 
 #The Magical API Call:
-http://google.com/complete/search?output=toolbar&gl=COUNTRY&q=Your_QUERY
+http://google.com/complete/search?output=toolbar&gl=us&q=github
+You can change the country, and the query to get google autosuggestion in XML format using this call.
+
 
 Check out the full video here:
 https://youtu.be/zU7ofxsjzsE
